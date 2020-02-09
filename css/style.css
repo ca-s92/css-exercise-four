@@ -1,4 +1,117 @@
+/* everything commented out were to test for proper dimensions */
+
+*, *:before, *:after {
+  box-sizing: border-box;}
+}
+
 body {
-  background-color: #dadada;
+  background-color: /*#dadada !important; */
   font-size: 10px;
+  display: block;
+  float: inherit;
+}
+
+div {
+  background-color: #dadada;
+  width: 100% auto;
+  height: 280px;
+  margin: 8px;
+  float: left;
+  /*margin-top: 2%;
+  text-align: center; */
+  /*padding-left: 1%;
+  padding-top: 1%; */
+}
+
+.container {
+  /*box-sizing: border-box; */
+  background-color: #dadada;
+  width: 85%;
+  display: inline-block;
+  margin: 50px 50px;
+  padding: 0px;
+  float: left;
+  /*position: absolute; */
+  /*text-align: center; */
+}
+
+.previewbaku {
+  background-image: url("/images/baku.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.previewlondon {
+  background-image: url("/images/london.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.previewmadrid {
+  background-image: url("/images/madrid.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.previewrome {
+  background-image: url("/images/rome.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*img {
+  background-size: cover;
+  background-repeat: no-repeat;
+ display: inline-block;
+  margin: 1%;
+    width: 100%;
+  float: inherit; } */
+
+
+h1 {
+  text-align: center;
+  padding: 15px;
+  font-size: 2em;
+  font-family: sans-serif;
+  color: #000;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+div > h1 {
+  /*text-align: center; */
+  font-size: 1.5em;
+  font-family: serif;
+  text-align: left;
+  text-transform: capitalize;
+  letter-spacing: normal;
+  color: #000;
+
+}
+
+/* two-column design for tablets */
+@media screen and (min-width: 575px) {
+    body {
+      margin: 20px;
+    }
+
+    h1{
+      font-size: 1.2em;
+    }
+    div {
+      margin: 1%;
+      width: 48%;
+    }
+}
+
+/*four-column design for laptops*/
+@media screen and (min-width: 991px) {
+    h1{
+      font-size: 1.7em;
+    }
+    div {
+      margin: 30px;
+      width: 65%;
+      height: 400px;
+    }
 }
