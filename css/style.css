@@ -1,7 +1,7 @@
 /* everything commented out were to test for proper dimensions */
 
 *, *:before, *:after {
-  box-sizing: border-box;
+  box-sizing: border-box;}
 }
 
 body {
@@ -107,8 +107,8 @@ div > h1 {
       font-size: 1.7em;
     }
     div {
-      margin: 5px;
-      width: 20%;
+      margin:.5%;
+      width: 24%;
       /*height: 400px;*/
     }
 }
