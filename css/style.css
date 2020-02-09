@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: /*#dadada !important; */
+  background-color: #dadada;
   font-size: 10px;
   display: block;
   float: inherit;
@@ -86,7 +86,7 @@ div > h1 {
 
 }
 
-/* two-column design for tablets
+/* two-column design for tablets */
 @media screen and (min-width: 575px) {
     body {
       margin: 20px;
