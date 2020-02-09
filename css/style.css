@@ -24,15 +24,12 @@ div {
 }
 
 .container {
-  /*box-sizing: border-box; */
   background-color: #dadada;
   width: 85%;
-  display: inline-block;
-  margin: 50px 50px;
+  display: block;
+  margin: 50px auto;
   padding: 0px;
-  float: left;
-  /*position: absolute; */
-  /*text-align: center; */
+  overflow: auto;
 }
 
 .previewbaku {
