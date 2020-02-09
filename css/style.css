@@ -1,11 +1,11 @@
 /* everything commented out were to test for proper dimensions */
 
 *, *:before, *:after {
-  box-sizing: border-box;}
+  box-sizing: border-box;
 }
 
 body {
-  background-color: /*#dadada !important; */
+  /*background-color: #dadada !important; */
   font-size: 10px;
   display: block;
   float: inherit;
@@ -13,7 +13,7 @@ body {
 
 div {
   background-color: #dadada;
-  width: 100% auto;
+  width: 100%;
   height: 280px;
   margin: 8px;
   float: left;
@@ -89,7 +89,7 @@ div > h1 {
 
 }
 
-/* two-column design for tablets */
+/* two-column design for tablets
 @media screen and (min-width: 575px) {
     body {
       margin: 20px;
@@ -104,7 +104,7 @@ div > h1 {
     }
 }
 
-/*four-column design for laptops*/
+/*four-column design for laptops
 @media screen and (min-width: 991px) {
     h1{
       font-size: 1.7em;
@@ -115,3 +115,4 @@ div > h1 {
       height: 400px;
     }
 }
+*/
