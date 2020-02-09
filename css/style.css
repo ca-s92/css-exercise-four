@@ -1,11 +1,9 @@
-/* everything commented out were to test for proper dimensions */
-
 *, *:before, *:after {
-  box-sizing: border-box;}
+  box-sizing: border-box;
 }
 
 body {
-  background-color: #dadada;
+  background-color: #fff;
   font-size: 10px;
   display: block;
   float: inherit;
@@ -17,10 +15,6 @@ div {
   height: 280px;
   margin-bottom: 10px;
   float: left;
-  /*margin-top: 2%;
-  text-align: center; */
-  /*padding-left: 1%;
-  padding-top: 1%; */
 }
 
 .container {
@@ -33,7 +27,7 @@ div {
 }
 
 .previewbaku {
-  background-image: url("../images/baku.jpg");
+  background-image: url("../images/baku.jpg"); /* always use the .. (signifies its connection to the root) when working with images saved locally/on your comp */
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -56,15 +50,6 @@ div {
   background-repeat: no-repeat;
 }
 
-/*img {
-  background-size: cover;
-  background-repeat: no-repeat;
- display: inline-block;
-  margin: 1%;
-    width: 100%;
-  float: inherit; } */
-
-
 h1 {
   text-align: center;
   padding: 15px;
@@ -76,7 +61,6 @@ h1 {
 }
 
 div > h1 {
-  /*text-align: center; */
   font-size: 1.5em;
   font-family: serif;
   text-align: left;
@@ -101,14 +85,13 @@ div > h1 {
     }
 }
 
-/*four-column design for laptops */
+/*four-column design for laptops: to get the smaller boxes, the width should be around 1/4 of 100%, with four images this makes it easier for them to be 1x4 vertically */
 @media screen and (min-width: 991px) {
     h1{
-      font-size: 1.7em;
+      font-size: 2em;
     }
     div {
       margin:.5%;
       width: 24%;
-      /*height: 400px;*/
     }
 }
